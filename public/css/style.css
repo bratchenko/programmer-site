@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700&subset=latin-ext,latin); 
+
+img {
+    border:0;   
+}
+
+body {
+    margin-top:40px;    
+    background-image:url(../img/back.png);
+}
+
+.options {
+    position:fixed;
+    top:20%;
+    left:0;
+    background:#f2f2f2;
+    color:#333;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    padding:5px;
+    width:37px;
+    border:5px solid #D7E0E9;
+    border-left:none;
+}
+
+#photo {
+    display: block;
+    float: left;
+    background: #fcfeff;
+    margin-left: 30px;
+    border: 10px solid #fff;
+    -webkit-box-shadow: 0px 1px 3px #ababab;
+    -moz-box-shadow: 0px 1px 3px #ababab;
+    box-shadow: 0px 1px 3px #ababab;
+}
+
+#data {
+    float:left;
+    padding-left:20px;
+}
+
+#social {
+    float:right;
+}
+
+a.facebook:link, a.facebook:active, a.facebook:visited {
+    background-image:url(../img/facebookpb.png);
+    width:30px;
+    height:30px;
+}
+
+a.facebook:hover {
+    background-image:url(../img/facebook.png);
+    width:30px;
+    height:30px;
+}

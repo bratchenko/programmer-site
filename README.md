@@ -1,4 +1,3 @@
-programmer-site
+Сайт программиста
 ===============
 
-Example site for programmer

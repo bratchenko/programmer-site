@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Programmer's site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael de Mello">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="options">
+        <a href="#" class="tooltip-test" onclick="javascript:window.print();" data-original-title="Print CV"><img src="img/print.png" border="0"></a>
+        <a href="#" class="tooltip-test" data-original-title="Download"><img src="img/download.png"></a>
+    </div>
+    <div class="container well">
+        <div class="row">
+            <div class="span12">
+                <div id="photo"><img src="img/user.png" width="186px"></div>
+                <div id="data">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td><h3>Birth</h3></td>
+                          <td>05 June 1984</td>
+                        </tr>
+                        <tr>
+                          <td><h3>Address</h3></td>
+                          <td>150 5th Avenue, NY</td>
+                        </tr>
+                        <tr>
+                          <td><h3>Phone</h3></td>
+                          <td>15 3333-8854</td>
+                        </tr>
+                        <tr>
+                          <td><h3>Mail</h3></td>
+                          <td>contato@ficticio.com</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div id="social">
+                    <a href="#" class="tooltip-test" data-original-title="Facebook"><img src="img/facebook.png"></a>
+                    <a href="#" class="tooltip-test" data-original-title="Google +"><img src="img/google.png"></a>
+                    <a href="#" class="tooltip-test" data-original-title="Twitter"><img src="img/twitter.png"></a>
+                    <a href="#" class="tooltip-test" data-original-title="Youtube"><img src="img/youtube.png"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container well">
+        <div class="row">
+            <div class="span12">
+                <h1 class="pull-right"><a href="/">Resume</a> | <a href="/portfolio">Portfolio</a> </h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container well">
+        <%=body%>
+    </div>
+</body>
+</html>
